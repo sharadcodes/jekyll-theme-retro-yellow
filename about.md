@@ -3,4 +3,14 @@ title: About
 layout: page
 ---
 
-This is about
+> Hi there this is Sharad, the developer of this theme.
+
+![Sharad](https://www.codingindian.codes/assets/uploads/profile.jpg)
+
+My Social Media Links
+
+[My Instagram](http://instagram.com/codingindian)
+
+[My Linkedin](http://linkedin.com/in/srsmaurya)
+
+[My Github](http://github.com/sharadcodes)
