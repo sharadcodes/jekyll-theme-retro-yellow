@@ -1,6 +1,6 @@
 # Jekyll Theme Retro Yellow
 
->A Minimal Dark theme for jekyll with minimal CSS
+>A Minimal Light theme for jekyll with minimal CSS
 
 [Live Demo](https://sharadcodes.github.io/jekyll-theme-retro-yellow/)
 
