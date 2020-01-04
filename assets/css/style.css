@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap");
+
+:root {
+  --theme-yellow: rgb(255, 255, 25);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  background-color: rgb(243, 243, 243);
+}
+
+/* nav */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition-duration: 0.4s;
+}
+nav a:hover {
+  border-bottom: 2px solid black;
+}
+
+/* hero */
+
+.hero {
+  min-height: 30vh;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-gap: 0.5rem;
+  align-items: baseline;
+  background-color: var(--theme-yellow);
+  box-shadow: inset 0px 2px 50px rgba(0, 0, 0, 0.5);
+  color: #2f2f2f;
+}
+
+.hero .a-date {
+  font-size: 1rem;
+  color: #7f7777;
+}
+
+.hero .a-author {
+  font-size: 1rem;
+  color: #7f7777;
+}
+
+/* main */
+
+.section-title {
+  padding: 30px 0 0 0;
+  margin-left: 12vw;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+main {
+  font-size: 1rem;
+  padding: 2rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* article */
+
+.article {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.192);
+  border-radius: 5px;
+  padding: 1rem;
+  text-decoration: none;
+  margin: 0 0 1.2rem 0;
+  width: 75vw;
+  transition-duration: 0.4s;
+  background-color: white;
+}
+
+.a-title {
+  color: #323232;
+  font-weight: bold;
+}
+
+.a-date {
+  color: grey;
+  font-weight: bold;
+}
+
+.a-author {
+  color: grey;
+  font-weight: bold;
+}
+
+.article:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.342);
+}
+
+/* content */
+
+.content {
+  font-family: "PT Serif", serif;
+  font-size: 1.1rem;
+  color: #2f2f2f;
+  padding: 2rem;
+
+}
+
+.content p {
+  letter-spacing: 1px !important;
+  line-height: 1.7 !important;
+  min-height: 1em !important;
+  margin: 20px 0 !important;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+  min-height: 5vh;
+  font-weight: bold;
+}
+
+/* utilities */
+
+.center {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}

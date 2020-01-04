@@ -1,0 +1,30 @@
+body {
+  background-color: #101010;
+  color: white;
+}
+
+nav a {
+  color: white;
+}
+
+* {
+  color: white;
+}
+
+.hero {
+  background-color: #262626;
+  box-shadow: none;
+  color: #d3d3d3;
+}
+
+.a-title {
+  color: #d3d3d3;
+}
+
+.article {
+  background-color: #262626;
+}
+
+.content p {
+  color: #d3d3d3 !important;
+}
