@@ -9,7 +9,7 @@
 1. Download or clone the repo
    `git clone https://github.com/sharadcodes/jekyll-theme-retro-yellow.git`
 2. Enter the folder
-   `cd jekyll-theme-dark-reader`
+   `cd jekyll-theme-retro-yellow`
 3. Run
    `bundle install`
 4. Start Jekyll server
