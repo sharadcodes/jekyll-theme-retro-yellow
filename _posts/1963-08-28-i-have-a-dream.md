@@ -2,7 +2,7 @@
 layout: post
 title: I Have a Dream
 date: 1963-08-28 10:18:00
-tags: speeches
+categories: ["story"]
 author: martin
 ---
 

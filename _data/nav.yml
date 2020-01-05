@@ -3,5 +3,5 @@ list:
     url: ""
   - title: About
     url: about
-  - title: Feed
-    url: feed.xml
+  - title: Categories
+    url: categories

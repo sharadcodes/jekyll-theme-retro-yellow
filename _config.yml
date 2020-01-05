@@ -13,7 +13,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-#  - jemoji
+  - jemoji
 
 paginate_path: "/page:num/"
 
